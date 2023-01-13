@@ -1,0 +1,53 @@
+.list-container {
+  list-style: none;
+  height: 150px;
+  width: 250px;
+  display: flex;
+  background-color: transparent;
+  border: 1px solid #b6c3ca;
+  border-radius: 5px;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.initial-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #10b981;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+.initial {
+  color: #ffffff;
+  font-size: 15px;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #f8fafc;
+}
+.delete-container {
+  align-items: flex-end;
+}
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.initial-user-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star {
+  height: 10px;
+}
